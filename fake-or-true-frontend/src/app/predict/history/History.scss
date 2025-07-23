@@ -1,0 +1,46 @@
+// src/app/predict/history/History.scss
+.history-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fdfdfd;
+  border-radius: 10px;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .error {
+    color: red;
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      background: #f1f1f1;
+      margin-bottom: 15px;
+      padding: 15px;
+      border-radius: 6px;
+
+      &.fake {
+        border-left: 5px solid #dc3545;
+      }
+
+      &.true {
+        border-left: 5px solid #28a745;
+      }
+
+      p {
+        margin: 5px 0;
+      }
+
+      small {
+        color: #777;
+      }
+    }
+  }
+}

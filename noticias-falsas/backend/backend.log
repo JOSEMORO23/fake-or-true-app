@@ -1,0 +1,75 @@
+2025-07-18 21:05:36,728 - ERROR - Error de validación: [{'type': 'value_error', 'loc': ('body', 'email'), 'msg': 'value is not a valid email address: An email address must have an @-sign.', 'input': '', 'ctx': {'reason': 'An email address must have an @-sign.'}}] | Ruta: http://localhost:8000/auth/login
+2025-07-18 21:22:07,936 - ERROR - Error de validación: [{'type': 'value_error', 'loc': ('body', 'email'), 'msg': 'value is not a valid email address: An email address must have an @-sign.', 'input': '', 'ctx': {'reason': 'An email address must have an @-sign.'}}] | Ruta: http://localhost:8000/auth/login
+2025-07-18 21:28:45,934 - ERROR - Error de validación: [{'type': 'value_error', 'loc': ('body', 'email'), 'msg': 'value is not a valid email address: An email address must have an @-sign.', 'input': '', 'ctx': {'reason': 'An email address must have an @-sign.'}}] | Ruta: http://localhost:8000/auth/login
+2025-07-18 21:30:49,832 - ERROR - Error de validación: [{'type': 'value_error', 'loc': ('body', 'email'), 'msg': 'value is not a valid email address: An email address must have an @-sign.', 'input': '', 'ctx': {'reason': 'An email address must have an @-sign.'}}] | Ruta: http://localhost:8000/auth/login
+2025-07-18 21:45:40,793 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-18 21:45:46,203 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 13:36:20,935 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 13:37:44,028 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 13:37:45,276 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 13:37:45,597 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 13:37:45,753 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 13:44:32,044 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 13:47:40,143 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 13:48:24,323 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 14:12:54,664 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 14:17:40,380 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 14:18:42,738 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 14:23:32,270 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 14:33:17,413 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 14:57:03,157 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 14:57:25,027 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 14:57:32,220 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 14:59:48,598 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 15:00:14,700 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 15:53:08,311 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 16:01:46,726 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 16:05:16,483 - ERROR - HTTPException: Not Found | Ruta: http://localhost:8000/auth/predict
+2025-07-19 16:05:18,011 - ERROR - HTTPException: Not Found | Ruta: http://localhost:8000/favicon.ico
+2025-07-19 16:05:44,393 - ERROR - HTTPException: Method Not Allowed | Ruta: http://localhost:8000/predict/
+2025-07-19 16:09:42,467 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 16:10:33,421 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 16:11:40,503 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 16:15:14,052 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/admin/predictions
+2025-07-19 16:19:18,214 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 16:19:52,880 - ERROR - HTTPException: Method Not Allowed | Ruta: http://localhost:8000/predict/
+2025-07-19 16:23:04,033 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 16:23:26,173 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 16:25:28,517 - ERROR - Error de validación: [{'type': 'value_error', 'loc': ('body', 'email'), 'msg': 'value is not a valid email address: An email address must have an @-sign.', 'input': 'admin', 'ctx': {'reason': 'An email address must have an @-sign.'}}] | Ruta: http://localhost:8000/auth/login
+2025-07-19 16:25:51,768 - ERROR - Error de validación: [{'type': 'value_error', 'loc': ('body', 'email'), 'msg': 'value is not a valid email address: An email address must have an @-sign.', 'input': 'tochomrc2gamil.com', 'ctx': {'reason': 'An email address must have an @-sign.'}}] | Ruta: http://localhost:8000/auth/login
+2025-07-19 16:25:53,850 - ERROR - Error de validación: [{'type': 'value_error', 'loc': ('body', 'email'), 'msg': 'value is not a valid email address: An email address must have an @-sign.', 'input': 'tochomrc2gamil.com', 'ctx': {'reason': 'An email address must have an @-sign.'}}] | Ruta: http://localhost:8000/auth/login
+2025-07-19 16:26:07,418 - ERROR - HTTPException: Credenciales incorrectas | Ruta: http://localhost:8000/auth/login
+2025-07-19 16:26:14,462 - ERROR - HTTPException: Credenciales incorrectas | Ruta: http://localhost:8000/auth/login
+2025-07-19 16:26:41,403 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 16:27:32,348 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 16:28:19,049 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 16:40:25,385 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 16:41:10,030 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-19 16:45:58,046 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-21 14:17:14,749 - ERROR - HTTPException: Method Not Allowed | Ruta: http://localhost:8000/predict/
+2025-07-21 14:17:15,535 - ERROR - HTTPException: Not Found | Ruta: http://localhost:8000/favicon.ico
+2025-07-21 14:20:11,106 - ERROR - HTTPException: Not authenticated | Ruta: http://localhost:8000/predict/
+2025-07-21 18:55:00,653 - ERROR - HTTPException: Method Not Allowed | Ruta: http://localhost:8000/auth/register
+2025-07-21 18:55:08,953 - ERROR - HTTPException: Not Found | Ruta: http://localhost:8000/favicon.ico
+2025-07-21 23:47:53,606 - ERROR - HTTPException: Acceso denegado: rol insuficiente | Ruta: http://localhost:8000/admin/predictions
+2025-07-21 23:47:53,613 - ERROR - HTTPException: Acceso denegado: rol insuficiente | Ruta: http://localhost:8000/admin/predictions
+2025-07-21 23:51:16,794 - ERROR - HTTPException: Acceso denegado: rol insuficiente | Ruta: http://localhost:8000/admin/predictions
+2025-07-21 23:51:16,805 - ERROR - HTTPException: Acceso denegado: rol insuficiente | Ruta: http://localhost:8000/admin/predictions
+2025-07-21 23:52:35,659 - ERROR - HTTPException: Acceso denegado: rol insuficiente | Ruta: http://localhost:8000/admin/predictions
+2025-07-21 23:52:35,663 - ERROR - HTTPException: Acceso denegado: rol insuficiente | Ruta: http://localhost:8000/admin/predictions
+2025-07-21 23:55:47,724 - ERROR - HTTPException: Acceso denegado: rol insuficiente | Ruta: http://localhost:8000/admin/predictions
+2025-07-21 23:55:47,728 - ERROR - HTTPException: Acceso denegado: rol insuficiente | Ruta: http://localhost:8000/admin/predictions
+2025-07-22 00:04:20,652 - ERROR - HTTPException: Acceso denegado: rol insuficiente | Ruta: http://localhost:8000/admin/predictions
+2025-07-22 00:04:20,660 - ERROR - HTTPException: Acceso denegado: rol insuficiente | Ruta: http://localhost:8000/admin/predictions
+2025-07-22 12:20:21,965 - ERROR - HTTPException: Credenciales incorrectas | Ruta: http://localhost:8000/auth/login
+2025-07-22 12:20:53,957 - ERROR - HTTPException: Credenciales incorrectas | Ruta: http://localhost:8000/auth/login
+2025-07-22 12:21:12,906 - ERROR - HTTPException: Credenciales incorrectas | Ruta: http://localhost:8000/auth/login
+2025-07-22 12:21:16,380 - ERROR - HTTPException: Credenciales incorrectas | Ruta: http://localhost:8000/auth/login
+2025-07-22 12:31:58,198 - ERROR - Error de validación: [{'type': 'value_error', 'loc': ('body', 'title'), 'msg': 'Value error, El texto debe contener más contenido alfabético.', 'input': '*/85981', 'ctx': {'error': ValueError('El texto debe contener más contenido alfabético.')}}, {'type': 'string_too_short', 'loc': ('body', 'text'), 'msg': 'String should have at least 20 characters', 'input': '+6-9-5-+-9-5-5', 'ctx': {'min_length': 20}}] | Ruta: http://localhost:8000/predict/
+2025-07-22 12:32:45,747 - ERROR - Error de validación: [{'type': 'value_error', 'loc': ('body', 'title'), 'msg': 'Value error, El texto debe contener más contenido alfabético.', 'input': '687y98877-++-', 'ctx': {'error': ValueError('El texto debe contener más contenido alfabético.')}}, {'type': 'value_error', 'loc': ('body', 'text'), 'msg': 'Value error, El texto debe contener más contenido alfabético.', 'input': '+-+-+-*/-85697016595', 'ctx': {'error': ValueError('El texto debe contener más contenido alfabético.')}}] | Ruta: http://localhost:8000/predict/
+2025-07-22 12:34:04,575 - ERROR - Error de validación: [{'type': 'value_error', 'loc': ('body', 'title'), 'msg': 'Value error, El texto debe contener más contenido alfabético.', 'input': '3453534546534', 'ctx': {'error': ValueError('El texto debe contener más contenido alfabético.')}}, {'type': 'string_too_short', 'loc': ('body', 'text'), 'msg': 'String should have at least 20 characters', 'input': '598*8-+++\n\n', 'ctx': {'min_length': 20}}] | Ruta: http://localhost:8000/predict/
+2025-07-22 12:34:10,210 - ERROR - Error de validación: [{'type': 'value_error', 'loc': ('body', 'title'), 'msg': 'Value error, El texto debe contener más contenido alfabético.', 'input': '3453534546534', 'ctx': {'error': ValueError('El texto debe contener más contenido alfabético.')}}, {'type': 'string_too_short', 'loc': ('body', 'text'), 'msg': 'String should have at least 20 characters', 'input': '598*8-+++\n\n', 'ctx': {'min_length': 20}}] | Ruta: http://localhost:8000/predict/
+2025-07-22 12:38:03,577 - ERROR - Error de validación: [{'type': 'value_error', 'loc': ('body', 'title'), 'msg': 'Value error, El texto debe contener más contenido alfabético.', 'input': '3453534546534', 'ctx': {'error': ValueError('El texto debe contener más contenido alfabético.')}}, {'type': 'string_too_short', 'loc': ('body', 'text'), 'msg': 'String should have at least 20 characters', 'input': '598*8-+++\n\n', 'ctx': {'min_length': 20}}] | Ruta: http://localhost:8000/predict/
+2025-07-22 12:39:23,247 - ERROR - Error de validación: [{'type': 'value_error', 'loc': ('body', 'title'), 'msg': 'Value error, El texto debe contener más contenido alfabético.', 'input': '1989819815', 'ctx': {'error': ValueError('El texto debe contener más contenido alfabético.')}}, {'type': 'string_too_short', 'loc': ('body', 'text'), 'msg': 'String should have at least 20 characters', 'input': '6292985298+-9+++', 'ctx': {'min_length': 20}}] | Ruta: http://localhost:8000/predict/
+2025-07-22 12:44:24,685 - ERROR - Error de validación: [{'type': 'value_error', 'loc': ('body', 'title'), 'msg': 'Value error, El texto debe contener más contenido alfabético.', 'input': '1989819815', 'ctx': {'error': ValueError('El texto debe contener más contenido alfabético.')}}, {'type': 'string_too_short', 'loc': ('body', 'text'), 'msg': 'String should have at least 20 characters', 'input': '6292985298+-9+++', 'ctx': {'min_length': 20}}] | Ruta: http://localhost:8000/predict/
+2025-07-23 18:33:17,066 - ERROR - HTTPException: Credenciales incorrectas | Ruta: http://localhost:8000/auth/login

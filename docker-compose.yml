@@ -1,0 +1,54 @@
+services:
+  frontend:
+    build:
+      context: ./fake-or-true-frontend
+    container_name: fake_news_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+  backend:
+    build:
+      context: ./noticias-falsas/backend
+    container_name: fake_news_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./noticias-falsas/backend:/app
+    depends_on:
+      - db
+    environment:
+      - MYSQL_HOST=db
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root
+      - MYSQL_DB=fakenews
+      - JWT_SECRET=claveultrasecreta
+      - JWT_ALGORITHM=HS256
+      - ACCESS_TOKEN_EXPIRE_MINUTES=30
+    networks:
+      - app-network
+
+  db:
+    image: mysql:8
+    container_name: mysql_server
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: fakenews
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - app-network
+
+volumes:
+  mysql_data:
+
+networks:
+  app-network:
+    driver: bridge

@@ -1,0 +1,54 @@
+// src/app/auth/login/Login.scss (igual para Register.scss)
+.auth-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #f5f5f5;
+  border-radius: 10px;
+
+  h2 {
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 10px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+
+      &:hover {
+        background: #0056b3;
+      }
+    }
+
+    .error {
+      color: red;
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+
+  p {
+    text-align: center;
+    margin-top: 10px;
+
+    a {
+      color: #007bff;
+      cursor: pointer;
+    }
+  }
+}
