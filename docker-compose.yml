@@ -2,6 +2,8 @@ services:
   frontend:
     build:
       context: ./fake-or-true-frontend
+      args:
+        - REACT_APP_API_URL=http://34.63.100.7:8000  # 👈 Agregado aquí
     container_name: fake_news_frontend
     ports:
       - "3000:80"
