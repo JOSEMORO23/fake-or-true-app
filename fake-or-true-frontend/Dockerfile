@@ -31,4 +31,8 @@ COPY --from=build /app/build /usr/share/nginx/html
 # Expone el puerto 80
 EXPOSE 80
 
+# Copia la configuración personalizada de Nginx
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+
 CMD ["nginx", "-g", "daemon off;"]
